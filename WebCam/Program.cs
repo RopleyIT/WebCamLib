@@ -3,10 +3,9 @@
 using WebCamImage wci = new()
 {
     Width = 1280,
-    Height = 720,
-    Brightness = 80,
-    Contrast = 80,
-    Focus = 81
+    Height = 960,
+    Brightness = 32,
+    Contrast = 24
 };
 
 wci.CaptureImage();
